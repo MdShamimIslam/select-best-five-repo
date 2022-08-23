@@ -79,11 +79,7 @@ function addPlayers(element) {
     }
 
     element.disabled = true;
-
     document.getElementById('total-added-player').innerText = playerArray.length;
-
     display(playerArray);
-
-
 }
 
